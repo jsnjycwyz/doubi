@@ -8,9 +8,9 @@ export PATH
 #       Author: Toyo
 #       Blog: https://doub.io/shell-jc1/
 #=================================================
-file="/usr/local/caddy/"
-caddy_file="/usr/local/caddy/caddy"
-caddy_conf_file="/usr/local/caddy/Caddyfile"
+file="/etc/caddy/"
+caddy_file="/etc/caddy"
+caddy_conf_file="etc/Caddyfile"
 Info_font_prefix="\033[32m" && Error_font_prefix="\033[31m" && Info_background_prefix="\033[42;37m" && Error_background_prefix="\033[41;37m" && Font_suffix="\033[0m"
 
 check_root(){
